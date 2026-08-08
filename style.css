@@ -23,12 +23,14 @@
             height:50px ;
             width: 100vw;
             display: flex;
+            background-color: white;
          
 
         }
         .top{
             display: flex;
             gap: 30px;
+            background-color: white;
         }
         .left{
             display: flex;
@@ -125,7 +127,6 @@
         .rightlink{
             display: flex;
             margin-right: 10px;
-            
         }
         ul{
             margin-left: 13px;
@@ -136,13 +137,29 @@
         li{
             list-style: none;
         }
-        a{
+        /* a{
             font-size: 14px;
             color: rgb(39, 38, 38);
             text-decoration: none;
             margin-right: 25px;
             
+        } */
+.leftlink ul li a,
+.rightlink ul li a{
+        color: #666;
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: none;
+         padding: 14px 20px;
+         margin-right: 0;
         }
+.rightlink a {
+    font-size: 13px;
+}
+
+.rightlink a:hover {
+    text-decoration: underline;
+}
         hr{
             color:#7a7a7a ;
             opacity: 0.3;
